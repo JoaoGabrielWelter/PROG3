@@ -1,0 +1,14 @@
+
+//Exercicio 1
+<!--O que é um automovel-->
+Um meio de transporte de carga e pessoa, é movido a motor, 
+precisa de varias peças em boa condição para funcionar perfeitamente, entre elas estão: freio, acelerador, embreagem, ignição.
+além de um condutor.
+
+objetos-
+
+ freio: serve para parar o veiculo de maneira segura.
+ acelerador: Faz o veiculo se mover e aumeta sua velocidade.
+ ignição: serve para acionar o funcionamento das peças do veiculo .
+ embragem: serve para mudar a marcha do veiculo.
+ condutor: é o condutor que aciona as peças.
