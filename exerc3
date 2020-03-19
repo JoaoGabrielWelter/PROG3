@@ -1,0 +1,44 @@
+// exercicio 3
+<?php
+class Produto{
+  public $nome;
+  public $prec;
+  public $quan;
+  public $paga;
+  public $desc;
+  public function Produto($n,$p,$q){
+  $this->nome = $n;
+  $this->prec= $p;
+  $this-> quan = $q;
+    $this->paga = $this->prec * $this->quan;
+    if($this->quan >=11 and $this->quan <=20){
+        $this->desconto= "10%";
+        $desc = ($this->paga*10)/100;
+        $this->paga = $this->paga - $desc;
+        
+      }
+      elseif($this->quan >=21 and $this->quan<=50){
+        $this->desconto= "20%";
+        $desc = ($this->paga*20)/100;
+        $this->paga = $this->paga - $desc;
+      }
+      elseif($this->quan >50){
+        $this->desconto= "25%";
+        $desc = ($this->paga*25)/100;
+        $this->paga = $this->paga - $desc;
+      }
+      else{
+        $this->desconto = 0;
+      }
+  }
+}
+$p1 = new Produto("Açucar",3.50,32
+);
+  print_r($p1);
+
+$p2 = new Produto("Leite",3.00,35);
+  print_r($p2);
+
+$p3 = new Produto("Ovo",6.00,50);
+  print_r($p3);
+  ?>
